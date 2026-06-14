@@ -1,0 +1,49 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-soft: var(--accent-soft);
+  --color-level-low: var(--level-low);
+  --color-level-moderate: var(--level-moderate);
+  --color-level-elevated: var(--level-elevated);
+  --color-level-high: var(--level-high);
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", ui-serif, Georgia, serif;
+}
+
+:root {
+  --background: oklch(0.985 0.004 95);
+  --foreground: oklch(0.22 0.02 250);
+  --surface: oklch(1 0 0);
+  --muted: oklch(0.96 0.005 250);
+  --muted-foreground: oklch(0.5 0.015 250);
+  --border: oklch(0.91 0.008 250);
+  --accent: oklch(0.38 0.13 255);
+  --accent-foreground: oklch(0.985 0.004 95);
+  --accent-soft: oklch(0.95 0.03 255);
+  --level-low: oklch(0.68 0.14 155);
+  --level-moderate: oklch(0.82 0.15 90);
+  --level-elevated: oklch(0.72 0.17 55);
+  --level-high: oklch(0.6 0.21 27);
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+  html { font-family: var(--font-sans); }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    -webkit-font-smoothing: antialiased;
+  }
+}

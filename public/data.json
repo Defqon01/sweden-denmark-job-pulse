@@ -1,0 +1,485 @@
+{
+  "generated_at": "2026-06-12T11:58:01+00:00",
+  "period": "Week of Jun 06–Jun 12, 2026",
+  "summary": "EU labor markets face intensifying headwinds as major restructurings accelerate across automotive, chemical, retail, and technology sectors, driven by Chinese competition, energy costs, and AI-driven efficiency drives. Spain and Germany report the highest concentration of announced layoffs, with automotive suppliers and manufacturing hubs particularly exposed. Hiring remains selective, concentrated in defense and specialized tech roles, creating a net negative employment outlook across the region.",
+  "countries": [
+    {
+      "name": "Germany",
+      "code": "DE",
+      "layoff_level": "high",
+      "layoff_score": 1.0,
+      "events": 84,
+      "vacancies": 154,
+      "headline": "Volkswagen Layoffs: Volkswagen to Cut 50,000 Jobs in Germany by 2030 Amid Profit Decline - Storyboard18",
+      "headline_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWE9ObUhIUjBsNlJPdndHUmFlaHBlVGJwSHRwRGpQd2FwQ0FVUE5VMGZwRV9DeEdPOHNxZnR5R01RTndMenF2WHJjVjZSN2w4dk9MdWJsTjVpN2tkNEc2UDRud3V3RnN5R21TN3BYU3FzemFfT2dRSkdqUlBKeWV3UHNaT0UxeEtVaFZIdEFLM2VscldpTUFseDZBdWsxOGlxYkdodEtPOWhEemlvY1ZhTUJqSFVvQlNkQXRhUXc3TlcwTDjSAcgBQVVfeXFMT0dEaGd2NFFuOGYyVW9wcUFBbVYwRnM3Nlpia3V4NzM4WVFLU0wySUFTRTZhVDB2LWp5aUExNl9lSl8yenpQb29vR2xUaTc5ZXU2cG5Wb212cGZqdkpDWUdfTUhva19jZGdjNE5CRnFxenRlRjJqU0Z4eHB6azMxcmZ2TEhPNHlnVVdBU1ZhY1pwZzhKYnJ1WXUwaVJvb3JYNm9BMXBnSktfN0N0UlJmc3ltdzFRUGRiOTBLWTJlR3hKT0hmWE5Nazc?oc=5",
+      "summary": "Tech sector under pressure (Microsoft/Xbox announcements); chemical manufacturing hit by global repositioning (Dow); workplace regulations tightening on mass layoffs; labor court raising standards for dismissals."
+    },
+    {
+      "name": "Spain",
+      "code": "ES",
+      "layoff_level": "high",
+      "layoff_score": 0.7,
+      "events": 59,
+      "vacancies": 0,
+      "headline": "A Shadow Over Amazon Spain: Layoffs Affecting 1200 Workers - Foro3D",
+      "headline_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONXphQVAzZUkzOGVKMGwyV1UyX3d5UU81WGE1b3g4MXBnT1lfLVlTWjZHeHA5dUhyZUI3eHN0cGNBNFhvcE02cDAtN0ZtVnZFUVFSenJoeEhLdHl0QVdSNEtfMERUR1NsMlllRE1Kc3Q2ZEttTlhQeFJ5WWM4NWFsWDZ3RHdITWpPTlRLOHo3YUN4ZVdlWmNQcA?oc=5",
+      "summary": "Multiple sectoral restructurings underway: automotive suppliers adjusting to Chinese EV competition, aerospace/defense cuts following program halts (Santa Bárbara), and retail/F&B layoffs (Nestlé, H&M, Amex GBT). Unions active in negotiation processes."
+    },
+    {
+      "name": "Sweden",
+      "code": "SE",
+      "layoff_level": "elevated",
+      "layoff_score": 0.57,
+      "events": 48,
+      "vacancies": 182,
+      "headline": "Mass layoffs: Volvo Cars to cut 3,000 jobs – mainly in Sweden - The Local Sweden",
+      "headline_url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxQc2k1d1A2VWotSFpwTnlUbEdPdnF5NEJ3SUFMT3N6S280U1lGUkhTdU5KT0tQUmZmdnhwM2o2Z2Z1NS1YUkdZcVM5ck1TTHo3NndRTlFVa2Y5dlhfUzJoWUx0ejNiclNqZzVWNVZyaW9yLU83cHJ3RkdtYUY0cmkwUEw2QVBtREticEV2cXBJU1M2c3llUTV1dFVFVUF1VVJPTlh4bm1QTVpYU09sbWxvWlBFc0k4eWNvZ1dvUE5XRUZEaGFScmdZSmN3MEVYWmQyLS12UElESFRQSVBtOXBBVjYzVXlBWnNfbDFPdDE1X2RaT0t1cVFHcWlPYzJxVmRTelQ4aFNQZU9yNVBQTjEwQUFxV2ZyZlo5bzcyRDRRZDdmQlhNTDVPLS12Y2UtS1Vxa2FsS2hwdXpwWlVXRjFybXIxaU5BbnhhbEgxanVXMmZpa181UkVmZDVYcm14NzRMYjNCLUE4a3RfbVJyVU1WalJLMkp2QmhLNVFzbGhueFVqWUhFN0Q3Ry1taXFRZ0hvdmJtNnBBemxHUQ?oc=5",
+      "summary": "Gaming/tech sector retractions (Metacore); public service cuts reported in elder care and rescue services; energy/defense sector remains relatively stable."
+    },
+    {
+      "name": "Italy",
+      "code": "IT",
+      "layoff_level": "elevated",
+      "layoff_score": 0.48,
+      "events": 40,
+      "vacancies": 0,
+      "headline": "New Stellantis layoffs mean over 3,000 jobs set to go in Italy - Automotive News",
+      "headline_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVVVhRjB0aGZXakhHVlROb2NGQ182b1dzamdicjNxanp2XzJOY1R4TXdnZHFRaTJYV085WFpEWWNTWE13Nm1oVVNoYU1BWGtGcklrVVBNQnZCOGpuQl92ZFBabWVJUEZVNVpMZVVNbnhTelpxa2J1b1QxbkhIVTNFUnNmU2Nrdw?oc=5",
+      "summary": "Luxury goods sector under restructuring pressure; unions securing negotiation delays on major redundancies (Kering)."
+    },
+    {
+      "name": "France",
+      "code": "FR",
+      "layoff_level": "elevated",
+      "layoff_score": 0.38,
+      "events": 32,
+      "vacancies": 0,
+      "headline": "Ubisoft begins voluntary layoff process at Paris headquarters, up to 200 roles affected - Storyboard18",
+      "headline_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNN1Q3UzVGTU84NnllS1ZHUUxDMGJ3NTRvcDlFa1M1bmdUQmdObUxTX2dRanJIU0xKYWdZeVVTVF9rQmFTTm5DbzR0NWNuM1ZwU0dZTl9qaDVWQXFMZVBQb2ZzbEhiZERfbWM5cUNTQ05peTBhSWp2TjNsMC1oOVlyaW81dUpvTjhLd2g4RWhQSTlwSk1hSlJ0YmhTcGJCY1JvaXFOYWd3MFhXVjNzaE1YR1U0ZHMxbzZYWVRJeFZSeVhiOHpvZTRNX1NvQU5YMDJiWmFuZtIB2gFBVV95cUxQNk1sNk9PZFFXRTVwX21ndWV1WF93SGlIdE5tRUJLc0ZXcGs1RmJjMjVZOUdLY0dJZk1QdjRwdHV3QTlNekhmdzB3VGpUcHZuMWNHLUdvMjFpYzhfZDM1S3lXTWR6TDdsNHIzbV9sQ1MyQnFJN3hIUEkwV0toMEhoZU5JX0dpaWtNcnBuNnRtQlg4c0ZuWTl6TTdJcFpxbjhKX3Z1QzlJTUlyZVRLQWM5MXQwYmdEMlFETjVUV1U0bHBVLThZWnZzb3lxX09zWGxudzNYb2lkVkhQdw?oc=5",
+      "summary": "32 layoff/restructuring event(s) tracked this period."
+    },
+    {
+      "name": "Denmark",
+      "code": "DK",
+      "layoff_level": "moderate",
+      "layoff_score": 0.31,
+      "events": 26,
+      "vacancies": 0,
+      "headline": "Novo Nordisk Layoffs: Danish Drug Major To Eliminate 9,000 Jobs, 11% of Its Workforce To Save Costs by End - LatestLY",
+      "headline_url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNQ2tFTXBmVnc3LUlGUG42cTBNRi1Cb3RIbTdoZkJmVzgyLW1jRVlaVGtiUVAxcUZ6Y1NNcWFtS2tMZEtMeDFneFVVdVdDMHFHTUd3WUxXQVUyYU1ORXM2dFFMVEdVUjhNYjN1X1hscGZSSlBBRnh5REVVSTNVOEV5N250WkZJVHZPcExsQm40N0dVeG1QbFhjeThrX2pFc2drLUx1YW9qMjhWdEJDUXVWakhlZUpBS1c4eTdoOHM3NXAwcUNOeVpHYXhmTXhqVkUxTVVkcC0yQ3NneG9mV2h4SzBrdVByR0l4TXYxbVB0eXpIdHpmLU9wN0JvTVNWUk14a3RoMTVoX3gwRzZoR1g1cnRZd3VmUTlyeEtBLXd2S0Q1aDl30gGqAkFVX3lxTFAyczhMSFVPd090dGM0V2JSTnc5VlRZcWRzS0pvTVNfV2h4SFBWMW1YSVliVXoxenVFUkNUd25HczVER1pVZElnTDUwcng5SHdlTFdxRUFRWk9pX29XVkFpOVFCQkJtX0RzX3o5UXBSN0xBc0duc3d4VXdYam1abnpHMGMzUTZCNjdNaHpLSWNBRDhnclpiQnp2VG1xUGhlQk9WT3BqTDNWMFdjSU1CS3VJVHp5OFIyVC1jYUpxVWRpV2pCYVhBLXJZVDNOOXdXUnNmdTBUWExSc3ZzZ2I4SmI2OVprNFhfOUd4OUNhbndvSHRXN1hzZERiRkZ6dGhyS0tJUzBqRVdSandfbVVyVmI0ZVRpOWdURmFSdFBOZXpHV2hkRG5MdDBhb2c?oc=5",
+      "summary": "26 layoff/restructuring event(s) tracked this period."
+    },
+    {
+      "name": "Netherlands",
+      "code": "NL",
+      "layoff_level": "moderate",
+      "layoff_score": 0.31,
+      "events": 26,
+      "vacancies": 0,
+      "headline": "Dutch bank ABN Amro plans to slash 5,200 jobs by 2028 — what's behind the layoffs? - Mint",
+      "headline_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPR0ZKbHN3RlNKU2JxeV9wakVuRHNReU4wS2xzUWl6WFZvdTU1SkhVbkpuVmRON3lZWXl3b2JLVUo2TXZtWEwzWEhGbVFKVWtwLTBsT01VT3l6TDVpZFRQZjVfV3NyWVJMcTl1b1BlRXVyQm1mUkllRWNVZ2sxZmx0TXBMM3ZjXzlDMVNGYUJIanFoTldpZkZMbzJRbmJpODMwejgyV2VUS0xhRFM3ZDU3TWRMdnVRdU5DelpCbnRJUjdnNmIwMFdMUzhXdWJlZjc3bktzRNIB2gFBVV95cUxQMklWU25vNDlXU1UtS3ZTYUhYZ0VDR1pTR3hjcVNiZHNHaGRCQXNZbFIxUDM2SVFIRmR6UXg5T1lCaDZDNGZ6ZmowaS0wYjcxY0VMRVBqQjVEcXphaGhhaHFSMkZta2V5SERySjk4N3FuWFhvcUowWGM4aGVoVS0tQjFHLWMxemxNTjlBOXFmRm04SWF3WWo4TmNsdW82YldRUFl1UDNNcDM3WlNyZHliY0l2OVRhWTUtaHFjQjFJY3hjaWFrbDlzZUJwWk5tUUMzbnRwTFRYTDF3dw?oc=5",
+      "summary": "26 layoff/restructuring event(s) tracked this period."
+    },
+    {
+      "name": "Finland",
+      "code": "FI",
+      "layoff_level": "moderate",
+      "layoff_score": 0.17,
+      "events": 14,
+      "vacancies": 0,
+      "headline": "Tutkimus : Kotitalousvähennyksen leikkaus vähensi palvelujen käytt ja heikensi yritysten tilauskantaa",
+      "headline_url": "https://www.taloustaito.fi/koti/tutkimus-kotitalousvahennyksen-leikkaus-vahensi-palvelujen-kayttoa-ja-heikensi-yritysten-tilauskantaa/",
+      "summary": "Health and social care sector facing major negotiation cycles; forest industry outlook deteriorating; selective tech/manufacturing layoffs ongoing."
+    },
+    {
+      "name": "Poland",
+      "code": "PL",
+      "layoff_level": "low",
+      "layoff_score": 0.05,
+      "events": 4,
+      "vacancies": 0,
+      "headline": "‘The automotive industry is dying’: Global carmaker announces mass layoffs in Poland - TVP World",
+      "headline_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTG1aMFFMWG9Ca3hxZEpQV1BLMHA5RE5XdGpVZzBMQ2sxaU5sRHJBeHk0VFJIZEwxS01sb3pGb0NGNTVQZGpDWno2TThQTm1fLXFfcGQwUnkzTTEtUk80XzJSbFRrYXJLLWg2TE5PQ2JtVlp2V2dvamc1RVpDOWVIcFhqYnFqZG44dmVsRFBVeEgyVTJBRGlfUENoTQ?oc=5",
+      "summary": "4 layoff/restructuring event(s) tracked this period."
+    },
+    {
+      "name": "Belgium",
+      "code": "BE",
+      "layoff_level": "low",
+      "layoff_score": 0.02,
+      "events": 2,
+      "vacancies": 0,
+      "headline": "Over 100 workers in Belgium set to lose jobs amid AGC group layoffs - The Brussels Times",
+      "headline_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRjR4OWpQdThiQXoyaEpMa0wyb3JESW5WU1VyaGpHbUp5aTJqcmdCNEkyZHdLTV9MRWVlWWdmWDk1dWZHRDJDcmFKQnM1U19hUUtRLUg4NmtUbVZ3RmoteDliZzJra2ZHT2RIRkdfdkswTXZfNkJHbjMwTlVLWThYc19GeExNTW83ekFiTG4xZmthY1dpNEZLX0l6UE90QkpNN3B5YlJFMU8?oc=5",
+      "summary": "2 layoff/restructuring event(s) tracked this period."
+    },
+    {
+      "name": "Greece",
+      "code": "GR",
+      "layoff_level": "low",
+      "layoff_score": 0.01,
+      "events": 1,
+      "vacancies": 0,
+      "headline": "Company Accidentally Spends $500M on Claude AI in One Month",
+      "headline_url": "https://greekreporter.com/2026/06/01/company-accidentally-spends-half-million-claude-ai-month/",
+      "summary": "1 layoff/restructuring event(s) tracked this period."
+    },
+    {
+      "name": "Norway",
+      "code": "NO",
+      "layoff_level": "low",
+      "layoff_score": 0.01,
+      "events": 1,
+      "vacancies": 0,
+      "headline": "Norway wealth fund CEO warns just using AI for job cuts risks backlash - Reuters",
+      "headline_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMWNKak5SMzl6SDZLSW0tRG51V1c1bWNqY2ZSOXZmd1cwaVlfRklLLTdkT3pvb2toQkVxWjFZT0Z3VGdOb1RHVm1UWFFzdUlvaHNreVRndnRSX2RudXdIQUtxTGV3dmkzMHE0cFRnbm5PU3NxdFF6VU9HZGM0bEhUc3hxdWhsMjhtZkNNVzloeUdpTUFsQmtOOFdyNlBYX3dobm1vOEdTWjdlOW9udlZoRHlITUhQcGQ1UFVac1lNV2hBQmNXbFE?oc=5",
+      "summary": "1 layoff/restructuring event(s) tracked this period."
+    },
+    {
+      "name": "Ireland",
+      "code": "IE",
+      "layoff_level": "low",
+      "layoff_score": 0.01,
+      "events": 1,
+      "vacancies": 0,
+      "headline": "Restructuring Trends in Europe: Impact on Irish Businesses - EY",
+      "headline_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQckpBb0NERTRiQUlUOXpiUE91ZjBOR0RpaEl4dmRBZVFoUDhDbTR0X1NYTjlFNkN0SktMYjQ4bHpuMHU1WTA4UmxFdjJzWG4tTVJfYjVqVHU1d09NaU83dVhHa1BVZUFJT0o3cUdBMXRDT1ZOTC1raVpWLUxucmJqRjBsU1ZpdWtDWVo0aDIyT2l0V2hFQUdFT1hkOXJkdnU3MkE?oc=5",
+      "summary": "1 layoff/restructuring event(s) tracked this period."
+    },
+    {
+      "name": "Switzerland",
+      "code": "CH",
+      "layoff_level": "low",
+      "layoff_score": 0.01,
+      "events": 1,
+      "vacancies": 0,
+      "headline": "Hundreds of UN staff in Swiss city protest against job cuts triggered by Trump - The Straits Times",
+      "headline_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNX0g2enRQbVYxS3JPZms5cXBUaEpnXzg5ZWl6OGJrMVR6Y1BGVE5kY2xoQzFydEpGM2FkQ0x0T3RtcW1VQjlFb29GVDV5SDFXSkJQNmktVllRSzZGWjN3RW50OUtKVDhKVGNndjJoZER1U2M5SS1aU19SUl9XaXlKRjI2Z1NxTTFmZTlSR1U4MU9mYjBDazdUZHpKNDlYZW9iZ19hQnIxd1NWLVBlZFpMbExR?oc=5",
+      "summary": "1 layoff/restructuring event(s) tracked this period."
+    }
+  ],
+  "top_events": [
+    {
+      "company": "Microsoft/Xbox",
+      "country": "Germany",
+      "type": "layoff",
+      "jobs_affected": null,
+      "title": "Xbox entfacht einen neuen Konsolenkrieg - ausgerechnet in der Krise",
+      "url": "https://www.pcgames.de/Xbox-Series-X-Konsolen-268616/Kolumnen/Xbox-entfacht-einen-neuen-Konsolenkrieg-ausgerechnet-in-der-Krise-1545068/",
+      "date": "2026-06-11"
+    },
+    {
+      "company": "Kings League",
+      "country": "Spain",
+      "type": "layoff",
+      "jobs_affected": 41,
+      "title": "Piqué reestructura la Kings League por la falta de rentabilidad y aplica un ERE para 41 trabajadores",
+      "url": "https://www.xataka.com/magnet/kings-league-nacio-2023-para-acabar-futbol-tradicional-tres-anos-despues-ha-declarado-ere",
+      "date": "2026-06-11"
+    },
+    {
+      "company": "Dow Chemical",
+      "country": "Germany",
+      "type": "layoff",
+      "jobs_affected": 110,
+      "title": "Job Cuts Hit German Chemical Hub as Dow's Global Restructuring Removes 110 Roles from Stade Site",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE16WDVoSHdFLXV1LU05c19PNjdLSEs4dHdZcmxxaW50eHlDTGo2S2ItdmhHX1VGQ2xMbVRNRmxIYmMyd3ZhczJ0T3lObFNDS2JH?oc=5",
+      "date": "2026-06-08"
+    },
+    {
+      "company": "Pleo",
+      "country": "EU",
+      "type": "layoff",
+      "jobs_affected": 50,
+      "title": "Pleo undertakes fresh round of job cuts, around 50 laid off",
+      "url": "https://www.larazon.es/economia/sebastian-ramirez-abogado-laboalista-cometas-estos-errores-trabajo-2026-quedaras-empleo-p7m_202606126a2bc40cf2a09b63649beea7.html",
+      "date": "2026-06-12"
+    },
+    {
+      "company": "Santa Bárbara",
+      "country": "Spain",
+      "type": "layoff",
+      "jobs_affected": 100,
+      "title": "Santa Bárbara estudia más de un centenar de despidos en Sevilla tras la paralización de programas de Defensa",
+      "url": "https://www.infodefensa.com/texto-diario/mostrar/5916694/santa-barbara-estudia-centenar-despidos-sevilla-paralizacion-programas-defensa",
+      "date": "2026-06-12"
+    },
+    {
+      "company": "Amex GBT",
+      "country": "Spain",
+      "type": "layoff",
+      "jobs_affected": 116,
+      "title": "The Amex GBT ERE concludes with 116 layoffs in Spain, 35% of Corporate Travel",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaXNLRWNyZTZRZDNvdkdhV1hVWElIaDFJbE01akQ0Zll5VlY1a1J5YUNDenZFVmVwT0lUY3l5eFlYTDRpNTBDY0RXdGNpc2FqaUZmN0JxU21nTlVvdDFQSXVBbXpvSThNSVFZRFNkQjluQllTSjMxSzQxSXJrdk44SmZxbFZ4MkdaUVlpZkRMWEl1YjBuQkkxdEY1WXM2UjFOYUI0Zjd2NGE1X2F6WWN6aUJ30gG3AUFVX3lxTE1VRU5IZnFxdTRZZkE1RUd1NE1Ta0dPR0VKR1kzYmRaZk9UUGVxMW9kaXVDZ1ZhSTR1b19LVEZSaF8tVUNHcjV6Qmp1T0Z4dmRfa2FvUWdjMm5nN29NV19EUXBsR1hrNlpiWmRSTl9JTGQtWXBSY1dyb1N1bE9JZFc5eGZxMHFnVlprX3BGaE1lTE1SYmhndE5Tc3BtYnZoZHZPeFlKQVhKYkgxdlA0S1MzUVZhaUEwOA?oc=5",
+      "date": "2026-06-05"
+    },
+    {
+      "company": "H&M",
+      "country": "Spain",
+      "type": "layoff",
+      "jobs_affected": 100,
+      "title": "H&M and unions reach agreement on the layoff of about 100 employees in Spain",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdzM3WEJLWnJYTlN6S2J5bjJFcFd0ZTVBMnBXUFduLXFnajR2a0FSZVRQblJwSUZyS3hMakpyX1lPdEVnMHRrRzRxUkg1RmNFMmduNG9QZlBBaGMtQk1hd2psQkFxVnhqQk1tMmVTRnBrZnhDX016NDZDZmdVWGd0bjVPYmw1bHR5ak55VGJWZTNWSGF6OVFxMXBVTVJ5STRMQklqTnJkMnJXeEx2d0xHbFh6REdRYTZt?oc=5",
+      "date": "2026-06-02"
+    },
+    {
+      "company": "Nestlé",
+      "country": "Spain",
+      "type": "layoff",
+      "jobs_affected": null,
+      "title": "Nestlé lowers planned job cuts in Spain",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zc3ZSbzFTNHBsZWRwYm9yYktfby1FRXN3WDRlYlVUTnRtd2dIaVRXM2lmUzJ6UTMza0VJa2djMmtPbVNaaTEwU1FHaTFMOFBqQmFLQ3hPOHBPLUdoTThyRFo5Z1d3QnZfUWRFMEYzZGxnaFIxZWxHWFFBOA?oc=5",
+      "date": "2026-06-09"
+    },
+    {
+      "company": "Metacore",
+      "country": "Sweden",
+      "type": "layoff",
+      "jobs_affected": 159,
+      "title": "Metacore closes Germany and Sweden operations as it confirms 159 layoffs",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQkFNM3M1cHMtcXk0emdQMFFwRWVXYkV0U0hBbm50SS10Q0pNS3NSVUVoMGdfbUk5QUFXelFLZ2JPY3cwdDdlWEh5dElFUVNlZ0VDT25vVDlwUFRDR3l6enI0UGR1Z3ZGdEktb2NZdi1wbURFWmVDX0ZJUE9HNWZCQktVRkUtczZ5MWV1M0wxdUstVC1fMFFDN3A5MzZaRzBMS3hn?oc=5",
+      "date": "2026-06-05"
+    },
+    {
+      "company": "Amazon",
+      "country": "Europe",
+      "type": "layoff",
+      "jobs_affected": 300,
+      "title": "Amazon To Lay Off Over 300 Jobs In Europe As 14,000 Global Cuts Take Shape",
+      "url": "https://www.arbeitnow.com/jobs/companies/revoic-gmbh/amazon-account-manager-e-commerce-consultant-in-koln-cologne-470208",
+      "date": "2026-06-11"
+    },
+    {
+      "company": "Kering/Alexander McQueen",
+      "country": "Italy",
+      "type": "layoff",
+      "jobs_affected": null,
+      "title": "Kering, Italian Unions Strike Deal to Negotiate, Delay Alexander McQueen Layoffs",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQkltZkQyZ2p3WVE3SmFFMnE4QXFYNHM0cklNM2VRSTkzN1U0UWRzR2Y0Q2VtdEdXYVBEMTJ1c2ZSLWU2dXlQbC1HRGRtY3ZJMEdfU0MtVV94VjMzdk9UT0RXamc2UEcxdDd1NGRob2hXemR6WEczVzZkUTQ4N1lLYVU1SjdKTFU1cEM5cDZBcWVVY0lQYkZ6eUxTcE9aSGRHUW9zaG53Z0J2MlZkWTdOYml4XzFwdnlsQU5xUzN2MTg?oc=5",
+      "date": "2024-10-24"
+    },
+    {
+      "company": "Pohjois-Pohjanmaan hyvinvointialue",
+      "country": "Finland",
+      "type": "layoff",
+      "jobs_affected": null,
+      "title": "Pohjois-Pohjanmaan hyvinvointialue aloittaa jättimäiset yt-neuvottelut",
+      "url": "https://www.lansi-savo.fi/uutissuomalainen/9523522",
+      "date": "2026-06-09"
+    }
+  ],
+  "rising_skills": [
+    {
+      "skill": "Ai",
+      "demand_index": 100,
+      "trend": "flat",
+      "evidence": "92 mention(s) across this week's signals"
+    },
+    {
+      "skill": "Data/IT",
+      "demand_index": 66,
+      "trend": "flat",
+      "evidence": "61 mention(s) across this week's signals"
+    },
+    {
+      "skill": "Tech",
+      "demand_index": 43,
+      "trend": "flat",
+      "evidence": "40 mention(s) across this week's signals"
+    },
+    {
+      "skill": "Administration, ekonomi, juridik",
+      "demand_index": 34,
+      "trend": "flat",
+      "evidence": "31 mention(s) across this week's signals"
+    },
+    {
+      "skill": "Yrken med teknisk inriktning",
+      "demand_index": 30,
+      "trend": "flat",
+      "evidence": "28 mention(s) across this week's signals"
+    },
+    {
+      "skill": "Automotive",
+      "demand_index": 22,
+      "trend": "flat",
+      "evidence": "20 mention(s) across this week's signals"
+    },
+    {
+      "skill": "Försäljning, inköp, marknadsföring",
+      "demand_index": 18,
+      "trend": "flat",
+      "evidence": "17 mention(s) across this week's signals"
+    },
+    {
+      "skill": "Pedagogik",
+      "demand_index": 17,
+      "trend": "flat",
+      "evidence": "16 mention(s) across this week's signals"
+    }
+  ],
+  "shortages": [
+    {
+      "country": "EU27",
+      "occupation": "Legal, social, cultural and related associate professionals",
+      "severity": 3.3
+    },
+    {
+      "country": "EU27",
+      "occupation": "Personal service workers",
+      "severity": 3.3
+    },
+    {
+      "country": "EU27",
+      "occupation": "Personal care workers",
+      "severity": 3.3
+    },
+    {
+      "country": "EU27",
+      "occupation": "Building and related trades workers, excluding electricians",
+      "severity": 3.3
+    },
+    {
+      "country": "Sweden",
+      "occupation": "Legal, social, cultural and related associate professionals",
+      "severity": 3.7
+    },
+    {
+      "country": "Sweden",
+      "occupation": "Drivers and mobile plant operators",
+      "severity": 3.7
+    },
+    {
+      "country": "Sweden",
+      "occupation": "Labourers in mining, construction, manufacturing and transport",
+      "severity": 3.7
+    },
+    {
+      "country": "Sweden",
+      "occupation": "Refuse workers and other elementary workers",
+      "severity": 3.7
+    },
+    {
+      "country": "Germany",
+      "occupation": "Legal, social and cultural professionals",
+      "severity": 4.0
+    },
+    {
+      "country": "Germany",
+      "occupation": "Agricultural, forestry and fishery labourers",
+      "severity": 4.0
+    },
+    {
+      "country": "Germany",
+      "occupation": "Teaching professionals",
+      "severity": 3.7
+    },
+    {
+      "country": "Germany",
+      "occupation": "Market-oriented skilled agricultural workers",
+      "severity": 3.7
+    },
+    {
+      "country": "Netherlands",
+      "occupation": "General and keyboard clerks",
+      "severity": 3.3
+    },
+    {
+      "country": "Netherlands",
+      "occupation": "Stationary plant and machine operators",
+      "severity": 3.3
+    },
+    {
+      "country": "Netherlands",
+      "occupation": "Drivers and mobile plant operators",
+      "severity": 3.3
+    },
+    {
+      "country": "Netherlands",
+      "occupation": "Cleaners and helpers",
+      "severity": 3.3
+    },
+    {
+      "country": "France",
+      "occupation": "Cleaners and helpers",
+      "severity": 3.7
+    },
+    {
+      "country": "France",
+      "occupation": "Food preparation assistants",
+      "severity": 3.7
+    },
+    {
+      "country": "France",
+      "occupation": "Refuse workers and other elementary workers",
+      "severity": 3.7
+    },
+    {
+      "country": "France",
+      "occupation": "Sales workers",
+      "severity": 3.3
+    },
+    {
+      "country": "Spain",
+      "occupation": "Legal, social, cultural and related associate professionals",
+      "severity": 3.3
+    },
+    {
+      "country": "Spain",
+      "occupation": "Customer services clerks",
+      "severity": 3.3
+    },
+    {
+      "country": "Spain",
+      "occupation": "Personal service workers",
+      "severity": 3.3
+    },
+    {
+      "country": "Spain",
+      "occupation": "Building and related trades workers, excluding electricians",
+      "severity": 3.3
+    },
+    {
+      "country": "Italy",
+      "occupation": "Administrative and commercial managers",
+      "severity": 4.0
+    },
+    {
+      "country": "Italy",
+      "occupation": "Science and engineering professionals",
+      "severity": 4.0
+    },
+    {
+      "country": "Italy",
+      "occupation": "Business and administration professionals",
+      "severity": 4.0
+    },
+    {
+      "country": "Italy",
+      "occupation": "Legal, social and cultural professionals",
+      "severity": 4.0
+    },
+    {
+      "country": "Finland",
+      "occupation": "Assemblers",
+      "severity": 4.0
+    },
+    {
+      "country": "Finland",
+      "occupation": "Food preparation assistants",
+      "severity": 4.0
+    },
+    {
+      "country": "Finland",
+      "occupation": "Building and related trades workers, excluding electricians",
+      "severity": 3.7
+    },
+    {
+      "country": "Finland",
+      "occupation": "Electrical and electronic trades workers",
+      "severity": 3.7
+    }
+  ],
+  "sources_count": 27,
+  "llm": "claude-haiku-4-5"
+}

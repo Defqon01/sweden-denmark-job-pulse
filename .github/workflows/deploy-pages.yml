@@ -1,0 +1,39 @@
+name: Deploy to GitHub Pages
+on:
+  push: { branches: [main] }
+  workflow_dispatch:
+permissions: { contents: read, pages: write, id-token: write }
+concurrency: { group: pages, cancel-in-progress: true }
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install
+      - name: Build static SPA
+        run: bun run build
+        env: { NITRO_PRESET: github_pages }
+      - name: Prepare static output
+        id: prep
+        run: |
+          DIR=""
+          for d in dist/client .output/public build/client dist; do
+            if [ -f "$d/_shell.html" ] || [ -f "$d/index.html" ]; then DIR="$d"; break; fi
+          done
+          if [ -z "$DIR" ]; then echo "No SPA shell found:"; ls -R dist .output 2>/dev/null | head -60; exit 1; fi
+          # TanStack Start SPA shell is _shell.html → GitHub Pages needs index.html + 404.html
+          [ -f "$DIR/_shell.html" ] && cp "$DIR/_shell.html" "$DIR/index.html"
+          cp "$DIR/index.html" "$DIR/404.html" 2>/dev/null || true
+          # ensure the weekly snapshot is served at the site root
+          cp public/data.json "$DIR/data.json" 2>/dev/null || true
+          touch "$DIR/.nojekyll"
+          echo "dir=$DIR" >> "$GITHUB_OUTPUT"
+          echo "Deploying $DIR:"; ls "$DIR"
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: "${{ steps.prep.outputs.dir }}" }
+      - id: deployment
+        uses: actions/deploy-pages@v4
