@@ -4,7 +4,7 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
-  vite: { base: "/eu-job-pulse/" },
+  vite: { base: "/sweden-denmark-job-pulse/" },
   tanstackStart: {
     server: { entry: "server" },
     spa: { enabled: true },
