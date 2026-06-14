@@ -44,13 +44,33 @@ const levelStyles: Record<Level, { bar: string; chip: string; label: string }> =
   high:     { bar: "bg-[var(--color-level-high)]",     chip: "bg-[var(--color-level-high)]/15 text-[oklch(0.4_0.18_27)]",     label: "High" },
 };
 
+// The pipeline repo publishes the freshest snapshot; the bundled copy is a
+// fallback so the site always renders even if the live fetch is unavailable.
+const DATA_SOURCES = [
+  "https://raw.githubusercontent.com/Defqon01/sweden-denmark-job-radar/main/docs/data.json",
+  "./data.json",
+];
+
+async function loadData(): Promise<Data> {
+  let lastErr: unknown;
+  for (const url of DATA_SOURCES) {
+    try {
+      const r = await fetch(url, { cache: "no-store" });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return (await r.json()) as Data;
+    } catch (e) {
+      lastErr = e;
+    }
+  }
+  throw lastErr instanceof Error ? lastErr : new Error("Failed to load data");
+}
+
 function Dashboard() {
   const [data, setData] = useState<Data | null>(null);
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
     let alive = true;
-    fetch("./data.json", { cache: "no-store" })
-      .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    loadData()
       .then((d) => { if (alive) setData(d); })
       .catch((e) => { if (alive) setError(String(e?.message ?? e)); });
     return () => { alive = false; };
